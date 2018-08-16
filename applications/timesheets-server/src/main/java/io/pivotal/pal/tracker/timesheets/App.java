@@ -19,6 +19,7 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
+    /* This is the timesheet application*/
     @Bean
     ProjectClient projectClient(
         RestOperations restOperations,
