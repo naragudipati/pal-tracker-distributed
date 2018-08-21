@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class AllocationsAppTest {
-    //test comment
+    
     @Test
     public void embedded() {
         App.main(new String[]{});
