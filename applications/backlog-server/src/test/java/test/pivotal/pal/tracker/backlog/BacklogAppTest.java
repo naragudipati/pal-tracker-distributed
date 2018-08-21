@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class BacklogAppTest {
-
+//Test commit for build issue resolution
     @Test
     public void embedded() {
         App.main(new String[]{});
